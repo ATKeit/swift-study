@@ -13,6 +13,7 @@
 		578C0068230502F400E3499B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578C0067230502F400E3499B /* Assets.xcassets */; };
 		578C006B230502F400E3499B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C0069230502F400E3499B /* LaunchScreen.storyboard */; };
 		578C00742305098400E3499B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578C00732305098400E3499B /* WebKit.framework */; };
+		578C0076230512A400E3499B /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = 578C0075230512A400E3499B /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		578C006A230502F400E3499B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578C006C230502F400E3499B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578C00732305098400E3499B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		578C0075230512A400E3499B /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				578C0067230502F400E3499B /* Assets.xcassets */,
 				578C0069230502F400E3499B /* LaunchScreen.storyboard */,
 				578C006C230502F400E3499B /* Info.plist */,
+				578C0075230512A400E3499B /* htmlView.html */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578C0076230512A400E3499B /* htmlView.html in Resources */,
 				578C006B230502F400E3499B /* LaunchScreen.storyboard in Resources */,
 				578C0068230502F400E3499B /* Assets.xcassets in Resources */,
 				578C0066230502F300E3499B /* Main.storyboard in Resources */,

@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController {
+class WebViewController: UIViewController {
     @IBOutlet var txtUrl: UITextField!
     @IBOutlet var webView: WKWebView!
     @IBOutlet var activityIndicator: UIActivityIndicatorView!
